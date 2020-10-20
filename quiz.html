@@ -18,14 +18,57 @@
   <form> 
     <div class="first-question" >
         <h2>
-            <label>1.) Cuéntanos: ¿Cuál es tú sitio favorito de Madrid?</label>
-            <input type="text" name="favorite" id="favorite" value ="" size="36" maxlength="130" required autofocus>
+            <label>1.) Cuéntanos: <br>¿Cuál es tú sitio favorito de Madrid?</label>
+            <input type="text" name="favorite" id="favorite" value.hidden ="favorite" size="36" maxlength="130" required autofocus placeholder="Ej.: El Retiro"> 
         </h2>
     </div>
     <div class="second-question"></div>
-    <div></div>
-    <div></div>
-    <div></div>
+        <h2>
+            <label>2.) ¿En qué año se terminó de construir la Puerta de Alcalá?</label>
+            <input type="number" name="number" id="number" size="4" maxlength="4" value.hidden="1788" required placeholder="Ej.:1788">
+        </h2>
+    <div class="thrid-question">
+            <h2>3.) ¿Donde se encuentra el Km.0?</h2>
+                <input type="radio" name="radio" id="radio" value="Puerta del Sol" > 
+                <label>Puerta del Sol</label>
+                <br>
+                <input type="radio" name="radio" id="radio" value="Plaza de Oriente"> 
+                <label>Plaza de Oriente</label>
+                <br>
+                <input type="radio" name="radio" id="radio" value="Plaza Mayor"> 
+                <label>Plaza Mayor</label>
+                <br>
+                <input type="radio" name="radio" id="radio" value="Puerta de Alcalá"> 
+                <label>Puerta de Alcalá</label>
+                <br>
+     </div>
+      <div class="four-question">
+            <h2>4.)¿Qué parques se encuentran en la Comunidad de Madrid?</h2>
+                <input type="checkbox" name="Maria-Luisa" id="Maria-Luisa" value="Maria Luisa">
+                <label for="Maria-Luisa">Parque de María Luisa</label>
+                <br>
+                <input type="checkbox" name="Genoves" id="Genoves" value="Genoves">
+                <label for="Genoves">Parque Genovés</label>
+                <br>
+                <input type="checkbox" name="Capricho" id="Capricho" value="Capricho">
+                <label for="Capricho">Parque El Capricho</label>
+                <br>
+                <input type="checkbox" name="Retiro" id="Retiro" value="Retiro">
+                <label for="Genoves">Parque De El Retiro</label>
+                <br>
+
+    </div>
+    <div class="fifth-question">
+        
+            <h2>5.) Elige tú Plaza favorita: </h2>
+                <select name="Plazas" id="Plazas" >
+                <option value="Void" placeholder>Elige una:</option>
+                <option value="Plaza Mayor">Plaza Mayor</option>            
+                <option value="Plaza Cibeles">Plaza Cibeles</option> 
+                <option value="Plaza Neptuno">Plaza Neptuno</option> 
+                <option value="Plaza Paja">Plaza De La Paja</option> 
+                </select>
+    </div>
     <button type="submit" id="click" value="">Enviar respuestas</button>
 </form>
 </body>
