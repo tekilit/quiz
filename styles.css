@@ -1,3 +1,58 @@
-body {
-    background-color: ghostwhite;
+.bodyIndex {
+    background-color: #7edcd9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+
+
 }
+
+.bodyQuiz {
+    background-color: rgb(134, 156, 159);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    margin: 56px;
+    padding: 2rem;
+    
+}
+
+.Madrid {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(62, 73, 198);
+}
+.startButton {
+    padding: 2rem;
+    font-family: fantasy;
+    font-size: x-large;
+    font-weight: 400;
+    font-style: italic;
+    background-color: rgb(203, 177, 109);
+}
+
+#click {
+    font-family: Verdana;
+    padding: 1rem;
+    color: purple;
+}
+@media screen and (min-width: 480px) {
+    .startButton {width: 200px; float: center; margin-top: center }
+    .bodyIndex {margin-top: 216px;}
+  }
+
+  @media screen and (min-width: 768px) {
+    .startButton {width: 350px; float: center; margin-top: center;}
+    .bodyIndex {margin-top: 216px;}
+
+  }
+  @media screen and (min-width: 1366px) {
+    .startButton {width: 650px; float: center; margin-top: center;}
+    .bodyIndex {margin-top: 216px;}
+
+  }
+
+  #escudo {
+    width: 100px; 
+    height: 100px;
+  }

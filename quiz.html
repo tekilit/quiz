@@ -8,12 +8,25 @@
     <meta name="author" content="TheBridge">
     <meta name="description" content="Plantilla simple HTML5">
 
-    <link rel="stylesheet" href="./styles.css">
-    <script defer src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="./scripts.js"></script>
 </head>
-<body>
-    
-    <h1>QUIZ</h1>
-
+<header>
+    <img src="./escudoMadrid.png" alt="Escudo Madrid" id="escudo">
+</header>
+<body class="bodyQuiz">
+  <form> 
+    <div class="first-question" >
+        <h2>
+            <label>1.) Cuéntanos: ¿Cuál es tú sitio favorito de Madrid?</label>
+            <input type="text" name="favorite" id="favorite" value ="" size="36" maxlength="130" required autofocus>
+        </h2>
+    </div>
+    <div class="second-question"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <button type="submit" id="click" value="">Enviar respuestas</button>
+</form>
 </body>
 </html>
